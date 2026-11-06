@@ -1,0 +1,25 @@
+>>> generating ising → datasets/ising
+    class compatible              : 5 files
+    class local_contradiction    : 20 files (4 Δ × 5 seeds)
+    class boundary_conflict      : 5 files
+    class symmetry_breaking      : 10 files (2 patch × 5 seeds)
+    class noisy                  : 20 files (4 σ × 5 seeds)
+    60 files written
+
+>>> generating hatano → datasets/hatano
+    class compatible              : 5 files
+    class local_contradiction    : 20 files
+    class boundary_conflict      : 5 files
+    class symmetry_breaking      : 10 files
+    class noisy                  : 20 files
+    60 files written
+
+>>> generating hofstadter → datasets/hofstadter
+    class compatible              : 5 files
+    class local_contradiction    : 20 files
+    class boundary_conflict      : 5 files
+    class symmetry_breaking      : 10 files
+    class noisy                  : 20 files
+    60 files written
+
+DONE. datasets/index.json written.

@@ -1,0 +1,35 @@
+compatible_Ising_seed0.pt
+  meta        = {'class': 'compatible', 'kind': 'Ising', 'params': {'J': 1.0, 'h': 0.8, 'gamma': 0.3}, 'N': 8, 'L': 4, 'periodic': False, 'obs_mode': 'trajectory', 'seed': 0}
+  fragments.onsite    shape=(8, 4)  dtype=torch.complex128
+  fragments.hopping   shape=(7, 4)  dtype=torch.complex128
+  observables shape=(8, 60)  dtype=torch.float64
+    sample obs[0,0] = 0.9840
+
+local_contradiction_d0.20_Ising_seed0.pt
+  meta        = {'class': 'local_contradiction', 'kind': 'Ising', ..., 'delta': 0.2}
+  fragments.onsite    shape=(8, 4)  dtype=torch.complex128
+  fragments.hopping   shape=(7, 4)  dtype=torch.complex128
+  observables shape=(8, 60)  dtype=torch.float64
+    sample obs[0,0] = 0.9840
+
+noisy_s1e-02_Ising_seed0.pt
+  meta        = {'class': 'noisy', 'kind': 'Ising', ..., 'sigma': 0.01}
+  fragments.onsite    shape=(8, 4)  dtype=torch.complex128
+  fragments.hopping   shape=(7, 4)  dtype=torch.complex128
+  observables shape=(8, 60)  dtype=torch.float64
+    sample obs[0,0] = 0.9840
+
+compatible_HatanoNelson_seed0.pt
+  meta        = {'class': 'compatible', 'kind': 'HatanoNelson', 'params': {'tR': 1.0, 'tL': 0.3}, 'N': 8, ...}
+  fragments.onsite    shape=(8, 1)  dtype=torch.complex128
+  fragments.hopping   shape=(7, 1)  dtype=torch.complex128
+  observables shape=(8, 60)  dtype=torch.float64
+    sample obs[0,0] = 1.0000
+
+compatible_Hofstadter_seed0.pt
+  meta        = {'class': 'compatible', 'kind': 'Hofstadter', 'params': {'t': 1.0, 'phi': 0.25}, 'N': 4, 'L': 4, 'periodic': True, ...}
+  fragments.onsite    shape=(16, 1)  dtype=torch.complex128
+  fragments.hopping   shape=(48, 1)  dtype=torch.complex128
+  fragments.plaquette shape=(9, 1)   dtype=torch.complex128
+  observables shape=(16, 60)  dtype=torch.float64
+    sample obs[0,0] = 1.0000

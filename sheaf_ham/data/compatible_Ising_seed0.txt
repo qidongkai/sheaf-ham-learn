@@ -1,0 +1,21 @@
+datasets/
+├── ising/
+│   ├── compatible_Ising_seed0.pt
+│   ├── compatible_Ising_seed1.pt
+│   ├── ...
+│   ├── local_contradiction_d0.02_Ising_seed0.pt
+│   ├── local_contradiction_d0.05_Ising_seed0.pt
+│   ├── ...
+│   ├── boundary_conflict_Ising_seed0.pt
+│   ├── ...
+│   ├── symmetry_breaking_p0.1_Ising_seed0.pt
+│   ├── symmetry_breaking_p1.0_Ising_seed0.pt
+│   ├── noisy_s1e-04_Ising_seed0.pt
+│   ├── noisy_s1e-03_Ising_seed0.pt
+│   ├── noisy_s1e-02_Ising_seed0.pt
+│   ├── noisy_s3e-02_Ising_seed0.pt
+│   └── index.json
+├── hatano/
+│   └── ... (同构)
+└── hofstadter/
+    └── ... (2D 版本，含 plaquette)

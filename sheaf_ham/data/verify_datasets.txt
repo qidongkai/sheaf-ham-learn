@@ -1,0 +1,30 @@
+=== ising ===
+  compatible            n_files=  5  onsite=(8, 4)  obs=(8, 60)
+  local_contradiction   n_files= 20  onsite=(8, 4)  obs=(8, 60)
+  boundary_conflict     n_files=  5  onsite=(8, 4)  obs=(8, 60)
+  symmetry_breaking     n_files= 10  onsite=(8, 4)  obs=(8, 60)
+  noisy                 n_files= 20  onsite=(8, 4)  obs=(8, 60)
+
+=== hatano ===
+  compatible            n_files=  5  onsite=(8, 1)  obs=(8, 60)
+  local_contradiction   n_files= 20  onsite=(8, 1)  obs=(8, 60)
+  boundary_conflict     n_files=  5  onsite=(8, 1)  obs=(8, 60)
+  symmetry_breaking     n_files= 10  onsite=(8, 1)  obs=(8, 60)
+  noisy                 n_files= 20  onsite=(8, 1)  obs=(8, 60)
+
+=== hofstadter ===
+  compatible            n_files=  5  onsite=(16, 1)  obs=(16, 60)
+  local_contradiction   n_files= 20  onsite=(16, 1)  obs=(16, 60)
+  boundary_conflict     n_files=  5  onsite=(16, 1)  obs=(16, 60)
+  symmetry_breaking     n_files= 10  onsite=(16, 1)  obs=(16, 60)
+  noisy                 n_files= 20  onsite=(16, 1)  obs=(16, 60)
+
+=== perturbation magnitudes (Ising, seed 0) ===
+  Δ=0.02   ||frag - base||_F = 0.0292
+  Δ=0.05   ||frag - base||_F = 0.0730
+  Δ=0.10   ||frag - base||_F = 0.1459
+  Δ=0.20   ||frag - base||_F = 0.2917
+  σ=1e-04  ||frag - base||_F = 1.34e-04
+  σ=1e-03  ||frag - base||_F = 1.34e-03
+  σ=1e-02  ||frag - base||_F = 1.34e-02
+  σ=3e-02  ||frag - base||_F = 4.02e-02
